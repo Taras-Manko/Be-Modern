@@ -1,0 +1,55 @@
+
+.about-us {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.about-text {
+    padding: 20px 100px;
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.about-logo {
+    font-style: italic;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.about-logo span {
+    font-weight: bold;
+    color: black;
+    font-size: 70px;
+}
+
+.about-logo strong {
+    font-weight: bolder;
+    color: gold;
+    font-size: 75px;
+}
+
+@media (max-width: 768px) {
+    .about-logo {
+        display: none;
+    }
+    .about-text {
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-text {
+        width: 100%;
+        padding: 0px 30px ;
+        
+    }
+}

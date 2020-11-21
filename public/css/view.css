@@ -1,0 +1,108 @@
+.view {
+    /* min-width: 1190px; */
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.view-head {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.view-body {
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+
+}
+
+.view-body-wrap:nth-child(odd) {
+    background-image: url('https://images.ua.prom.st/2102252939_w640_h640_natyazhnye-potolki-natyazhni.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.view-body-wrap {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-image: url('https://luxpotolok.pro/files/images/chernye/chernye-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+
+    color: white;
+    padding: 35px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.view-body-wrap h1 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+.view-body-wrap p {
+    margin: 0;
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+}
+
+.view-body-wrap h4 {
+    margin: 0;
+    color: gold;
+    font-size: 25px;
+}
+
+.view-body-wrap p {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .view-body {
+        text-align: center;
+        
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .view-body-wrap p {
+        background-color: rgb(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    .view-body-wrap {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media (max-width: 376px) {
+    .view-body-wrap {
+        width: 80%;
+        /* margin-left: 20px; */
+        margin-bottom: 20px;
+    }
+    
+
+    .view-body-wrap p {
+        background-color: rgb(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 25px;
+    }
+}

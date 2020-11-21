@@ -1,0 +1,51 @@
+.how-work {
+    background-image: url('https://design-homes.ru/images/galery/idei-dlya-doma/chernyj-potolok-v-interere/chernyj-potolok-v-interere5.jpg');
+    background-size: cover;
+    /* min-width: 1350px; */
+    background-position: top;
+    width: 100%;
+    display: block;
+    height: auto;
+    align-items: center;
+    /* padding: 20px; */
+    color: white;
+    font-size: 25px;
+}
+
+.work-body p {
+    background-color: rgb(2, 2, 2, 0.7);
+    padding: 15px;
+    border-radius: 50%;
+
+}
+
+.work-head {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.work-body {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+    .work-body {
+        color: rgb(250, 250, 255);
+        display: block;
+    }
+
+    .work-body p {
+        background-color: black;
+        border-radius: 50%;
+        opacity: 0.8;
+    }
+}

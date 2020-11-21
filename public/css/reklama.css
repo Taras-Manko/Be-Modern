@@ -1,0 +1,57 @@
+.reklama {
+    /* min-width: 1350px; */
+    /* padding: 20px; */
+    display: block;
+    width: 100%;
+    height: auto;
+    background-image: url('https://zabor.bz/zakaz/img/market/chernyj_glyancevyj_natyazhnoj_potolok_img_2.jpg');
+    background-position: top;
+    color: white;
+    background-size: cover;
+}
+
+.reklama-head {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.reklama-body {
+    display: flex;
+    width: 100%;
+}
+.reklama-text p {
+    font-size: 25px;
+}
+.reklama-text {
+    color: gold;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.reklama-number {
+
+    font-size: 35px;
+    color: gold;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.reklama-number a {
+    background-color: rgb(17, 16, 16,.7);
+    padding: 5px;
+    border-radius: 10px;
+     font-size: 30px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .reklama-text {
+        display: none;
+    }
+}

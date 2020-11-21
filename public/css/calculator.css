@@ -1,0 +1,39 @@
+.calculator {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+.calc-center {
+    margin: 0 auto;
+    width: 35%;
+    padding:20px 40px;
+    border-radius: 25px;
+    color: white;
+    text-align: left;
+    background-color: rgb(51, 41, 33);
+}
+.calc-center strong,p {
+font-size: 20px;
+}
+.price {
+    display:flex; 
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    .price {
+        display:block; 
+        align-items: center;
+    }
+    .calc-center {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .calculator {
+        
+        margin-bottom: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

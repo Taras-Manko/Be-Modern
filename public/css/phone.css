@@ -1,0 +1,62 @@
+.call-phone {
+    margin-top: 100px;
+    width: 100%;
+}
+.phone-form {
+    background-color: rgba(65, 64, 57, 0.3);
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.phone-form div {
+    background-color: rgb(12, 12, 12,.9);
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.phone-form input {
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(75, 74, 73, 0.5);
+    border: 1px solid white;
+    padding: 5px;
+}
+.phone-form button {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: gold;
+    border: none;
+}
+ input::placeholder {
+    color: white;
+}
+.phone-form button:hover {
+    background-color: rgb(223, 202, 85);
+    cursor: pointer;
+
+}
+@media (max-width: 375px) {
+    .phone-form {
+        width: 80%;
+        
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .call-phone {
+        margin-top: 20px;
+    }
+    .phone-form div {
+        margin-bottom: 5px;
+    }
+   
+}
+
+
+@media (max-width: 725px) {
+    .phone-form {
+        width: 80%;
+        
+    }
+}
